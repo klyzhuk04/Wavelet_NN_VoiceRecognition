@@ -17,8 +17,7 @@
 ├── README.md               # Этот файл
 ├── DataSplit.ipynb         # Jupyter Notebook с кодом для нарезания аудиозаписей на односекундные
 ├── Вейвлетные_нейронные_сети_распознавание_голоса.ipynb  # Основной Jupyter Notebook с кодом
-├── requirements.txt        # Зависимости
-└── data/                   # Директория с данными (примеры голосовых записей)
+└── requirements.txt        # Зависимости
 ```
 
 ## Требования
@@ -46,10 +45,11 @@
    pip install -r requirements.txt
    ```
 
-3.  Запустите Jupyter Notebook с кодом для нарезания аудиозаписей на односекундные:
+3. Запустите Jupyter Notebook с кодом для нарезания аудиозаписей на односекундные:
    ```bash
    jupyter notebook DataSplit.ipynb
    ```
+   
 4. Запустите Jupyter Notebook с моделью:
    ```bash
    jupyter notebook Вейвлетные_нейронные_сети_распознавание_голоса.ipynb
